@@ -4,15 +4,130 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>F8 Project 02</title>
+        <title>Lesson.</title>
 
         <!-- RESET -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
+        <!-- EMBED GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- STYLE -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body>
-        <h1>Project 02</h1>
+    <body style="height: 2000px">
+        <header class="fixed-header">
+            <div class="main-content">
+                <div class="body">
+                    <!-- Logo -->
+                    <a href="#!">
+                        <img
+                            src="./assets/img/Logo.svg"
+                            alt="Lesson."
+                            class="logo"
+                        />
+                    </a>
+
+                    <!-- Navigation -->
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Action (button) -->
+                    <div class="action">
+                        <a href="#!" class="btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero-wrap">
+                <div class="main-content">
+                    <!-- HERO PHOTO BLOCK (LEFT SIDE) -->
+                    <div class="photo-block">
+                        <!-- PHOTO -->
+                        <div class="hero-photo"></div>
+                        <!-- CARD -->
+                        <div class="hero-card">
+                            <div class="card-content">
+                                <img
+                                    src="./assets/img/hero-card-icon-1.svg"
+                                    alt=""
+                                />
+                                <div class="text-block">
+                                    <div class="text-line-1">20 Courses</div>
+                                    <div class="text-line-2">UI/UX Design</div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <img
+                                    src="./assets/img/hero-card-icon-2.svg"
+                                    alt=""
+                                />
+                                <div class="text-block">
+                                    <div class="text-line-1">20 Courses</div>
+                                    <div class="text-line-2">Development</div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <img
+                                    src="./assets/img/hero-card-icon-3.svg"
+                                    alt=""
+                                />
+                                <div class="text-block">
+                                    <div class="text-line-1">30 Courses</div>
+                                    <div class="text-line-2">Marketing</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HERO CONTENT (RIGHT SIDE)  -->
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Learn without limits and spread knowledge.
+                        </h1>
+                        <p class="hero-details">
+                            Build new skills for that “this is my year” feeling
+                            with courses, certificates, and degrees from
+                            world-class universities and companies.
+                        </p>
+                        <div class="action">
+                            <a href="#!" class="btn">See Courses</a>
+                            <a href="#!">
+                                <img
+                                    class="watch-icon"
+                                    src="./assets/img/hero-watch-icon.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a href="#!" class="watch-video">Watch Video</a>
+                        </div>
+                        <p class="hero-details-2">Recent engagement</p>
+                        <div class="hero-stats">
+                            <div class="stat-details">
+                                <div class="stats">50K</div>
+                                <span class="text">Students</span>
+                            </div>
+                            <div class="stat-details">
+                                <div class="stats">70+</div>
+                                <span class="text">Courses</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
