@@ -861,6 +861,10 @@ a {
     margin-right: 18px;
 }
 
+.footer-wrap .social-icon:hover {
+    opacity: 0.7;
+}
+
 .footer-wrap .footer-lists {
     display: flex;
     justify-content: space-between;
@@ -894,6 +898,10 @@ a {
     font-size: 1.4rem;
     line-height: 1.86;
     color: #bfbcb2;
+}
+
+.footer-wrap .list-item:hover {
+    opacity: 0.7;
 }
 
 .footer-wrap .separate-line {
