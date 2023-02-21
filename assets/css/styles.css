@@ -445,6 +445,8 @@ a {
 }
 
 .courses-wrap .course-desc {
+    margin-top: 6px;
+    margin-bottom: 12px;
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.86;
@@ -892,9 +894,6 @@ a {
     font-size: 1.4rem;
     line-height: 1.86;
     color: #bfbcb2;
-}
-
-.footer-wrap .contact-item {
 }
 
 .footer-wrap .separate-line {
