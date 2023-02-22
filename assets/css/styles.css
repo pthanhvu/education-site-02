@@ -214,8 +214,8 @@ a {
     margin-left: auto;
     margin-top: 124px;
     margin-bottom: 68px;
-    width: 40.2%;
-    margin-left: 19.7%;
+    width: 41%;
+    margin-left: 11%;
 }
 
 .hero-content .hero-title {
@@ -359,7 +359,14 @@ a {
     color: #5f5b53;
 }
 
+.courses-wrap .main-content .icons {
+    display: flex;
+}
+
 .courses-wrap .main-content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     color: var(--primary-color);
     width: 40px;
@@ -911,7 +918,7 @@ a {
     background: #59554b;
 }
 
-.footer-wrap .copy-right {
+.footer-wrap .copyright {
     font-size: 1.4rem;
     line-height: 1.86;
     text-align: center;
