@@ -332,7 +332,6 @@ a {
 /* ========= COURSES ========= */
 .courses-wrap {
     margin-top: 200px;
-    margin-bottom: 200px;
 }
 .courses-wrap .main-content .title {
     font-family: var(--font-heading);
@@ -482,6 +481,7 @@ a {
 /* ========= REVIEW ========= */
 .review-wrap {
     background-color: #2e2100;
+    margin-top: 200px;
 }
 
 .review-wrap .main-content {
@@ -721,7 +721,7 @@ a {
 .blog-wrap .main-content .text {
     width: 39%;
 }
-.blog-wrap .blog-post {
+.blog-wrap .blog-posts {
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -6,7 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lesson.</title>
 
-        <!-- RESET -->
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS RESET -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
         <!-- EMBED GOOGLE FONTS -->
@@ -39,8 +58,8 @@
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#courses">Courses</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
                             <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#blog">Blog</a></li>
                         </ul>
                     </nav>
 
@@ -58,8 +77,10 @@
                 <div class="main-content">
                     <!-- Hero photo block (left side) -->
                     <div class="photo-block">
+
                         <!-- Hero photo -->
                         <div class="hero-photo"></div>
+
                         <!-- Card -->
                         <div class="hero-card">
                             <div class="card-content">
@@ -105,6 +126,8 @@
                             with courses, certificates, and degrees from
                             world-class universities and companies.
                         </p>
+
+                        <!-- Action -->
                         <div class="action">
                             <a href="#!" class="btn">See Courses</a>
                             <a href="#!">
@@ -117,6 +140,8 @@
                             <a href="#!" class="watch-video">Watch Video</a>
                         </div>
                         <p class="hero-details-2">Recent engagement</p>
+
+                        <!-- Stats -->
                         <div class="hero-stats">
                             <div class="stat-details">
                                 <div class="stats">50K</div>
@@ -132,11 +157,13 @@
             </div>
 
             <!-- COURSES -->
-            <div class="courses-wrap">
+            <div id="courses" class="courses-wrap">
                 <div class="main-content">
                     <h2 class="title">Our popular courses</h2>
                         <div class="row desc">
                             <p class="text">Build new skills with new trendy courses and shine for the next future career.</p>
+                            
+                            <!-- Back and forth buttons -->
                             <div class="icons">
                                 <button class="back-icon" alt="Previous courses">
                                     <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -150,6 +177,8 @@
                                 </button>
                             </div>
                         </div>
+
+                        <!-- Courses & price -->
                         <div class="courses-intro">
                             <div class="course-each">
                                 <a href="#!"><img src="./assets/img/courses-photo1.jpg" alt="Basic web design" class="course-img" /></a>
@@ -208,7 +237,7 @@
             </div>
 
             <!-- REVIEW -->
-            <div class="review-wrap">
+            <div id="reviews" class="review-wrap">
                 <div class="main-content">
                     <div class="student-info">
                         <img src="./assets/img/Review-student-photo.jpg" alt="" class="student-photo">
@@ -258,11 +287,13 @@
             </div>
 
             <!-- BLOG -->
-            <div class="blog-wrap">
+            <div id="blog" class="blog-wrap">
                 <div class="main-content">
                     <h2 class="title">Our blog</h2>
                     <p class="text">Read our regular travel blog and know the latest update of tour and travel</p>
-                    <div class="blog-post">
+                    
+                     <!-- Blog posts -->
+                    <div class="blog-posts">
                         <div class="blog-each">
                             <a href="#!"><img src="./assets/img/blog-photo1.jpg" alt="" class="blog-img" /></a>
                             <div class="blog-details">
@@ -298,9 +329,10 @@
                                 <h3><a href="#!" class="blog-title line-clamp line-2 break-word">How is a real working day as a Web App designer?</a></h3>                                                   
                                 <a href="#!"><div class="btn">Read More</div></a>                              
                             </div>
-                        </div>
-                        
+                        </div>                       
                     </div>
+
+                    <!-- Slide dots -->
                     <div class="slide-dots">
                         <div class="dot"></div>
                         <div class="dot active"></div>
@@ -313,49 +345,53 @@
             <div class="footer-wrap">
                 <div class="main-content">
                     <div class="footer-details">
+
+                        <!-- Intro -->
                         <div class="footer-intro">
-                        <img src="./assets/img/footer-logo.svg" alt="Lesson." class="logo">
-                        <p class="desc">Need to help for your dream Career? Trust us! With Lesson, study becomes a lot easier with us.</p>
-                        <div class="icons">
-                            <a href="#!"><img src="./assets/img/footer-icon1.svg" alt="Twitter" class="social-icon"></a>
-                            <a href="#!"><img src="./assets/img/footer-icon2.svg" alt="Facebook" class="social-icon"></a>
-                            <a href="#!"><img src="./assets/img/footer-icon3.svg" alt="LinkedIn" class="social-icon"></a>
-                            <a href="#!"><img src="./assets/img/footer-icon4.svg" alt="Instagram" class="social-icon"></a>
+                            <img src="./assets/img/footer-logo.svg" alt="Lesson." class="logo">
+                            <p class="desc">Need to help for your dream Career? Trust us! With Lesson, study becomes a lot easier with us.</p>
+                            <div class="icons">
+                                <a href="#!"><img src="./assets/img/footer-icon1.svg" alt="Twitter" class="social-icon"></a>
+                                <a href="#!"><img src="./assets/img/footer-icon2.svg" alt="Facebook" class="social-icon"></a>
+                                <a href="#!"><img src="./assets/img/footer-icon3.svg" alt="LinkedIn" class="social-icon"></a>
+                                <a href="#!"><img src="./assets/img/footer-icon4.svg" alt="Instagram" class="social-icon"></a>
+                            </div>
                         </div>
-                        </div>
+
+                        <!-- Info lists -->
                         <div class="footer-lists">
-                        <ul class="list-each">
-                            Company
-                            <div class="separate-line"></div>
-                            <a href="#!"><li class="list-item">About Us</li></a>
-                            <a href="#!"><li class="list-item">Features</li></a>
-                            <a href="#!"><li class="list-item">Our Pricing</li></a>
-                            <a href="#!"><li class="list-item">Latest News</li></a>
-                        </ul>
-                        <ul class="list-each">
-                            Support
-                            <div class="separate-line"></div>
-                            <a href="#!"><li class="list-item">FAQ’s</li></a>
-                            <a href="#!"><li class="list-item">Terms & Conditions</li></a>
-                            <a href="#!"><li class="list-item">Privacy Policy</li></a>
-                            <a href="#!"><li class="list-item">Contact Us</li></a>
-                        </ul>
-                        <ul class="list-each">
-                            Address
-                            <div class="separate-line"></div>
-                            <li class="contact-item">
-                                <span style="font-weight: bold;color:#FFFFFF;">Location:</span>
-                                27 Division St, New York, NY 10002, USA
-                            </li>
-                            <li class="contact-item">
-                                <span style="font-weight: bold;color:#FFFFFF;">Email:</span> 
-                                email@gmail.com
-                            </li>
-                            <li class="contact-item">
-                                <span style="font-weight: bold;color:#FFFFFF;">Phone:</span> 
-                                + 000 1234 567 890
-                            </li>
-                        </ul>
+                            <ul class="list-each">
+                                Company
+                                <div class="separate-line"></div>
+                                <a href="#!"><li class="list-item">About Us</li></a>
+                                <a href="#!"><li class="list-item">Features</li></a>
+                                <a href="#!"><li class="list-item">Our Pricing</li></a>
+                                <a href="#!"><li class="list-item">Latest News</li></a>
+                            </ul>
+                            <ul class="list-each">
+                                Support
+                                <div class="separate-line"></div>
+                                <a href="#!"><li class="list-item">FAQ’s</li></a>
+                                <a href="#!"><li class="list-item">Terms & Conditions</li></a>
+                                <a href="#!"><li class="list-item">Privacy Policy</li></a>
+                                <a href="#!"><li class="list-item">Contact Us</li></a>
+                            </ul>
+                            <ul class="list-each">
+                                Address
+                                <div class="separate-line"></div>
+                                <li class="contact-item">
+                                    <span style="font-weight: bold;color:#FFFFFF;">Location:</span>
+                                    27 Division St, New York, NY 10002, USA
+                                </li>
+                                <li class="contact-item">
+                                    <span style="font-weight: bold;color:#FFFFFF;">Email:</span> 
+                                    email@gmail.com
+                                </li>
+                                <li class="contact-item">
+                                    <span style="font-weight: bold;color:#FFFFFF;">Phone:</span> 
+                                    + 000 1234 567 890
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="separate-line">
